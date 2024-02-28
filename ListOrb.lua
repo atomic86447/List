@@ -3,7 +3,8 @@ spawn(function()
 OrbSekkBossOnline = {
  "Infinity Orb",
  "[Choso] Cursed Womb",
- "Sukuna Fingers Bag"
+ "Sukuna Fingers Bag",
+ "มีบ่"
 }
 end
 end)
