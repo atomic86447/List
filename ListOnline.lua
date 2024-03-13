@@ -45,6 +45,7 @@ GateMob = {
 MeleeName = {
 "Combat",
 "Sukuna",
+"Natsu",
 "Gojo",
 "Gilgamesh",
 "Gon",
