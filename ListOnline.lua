@@ -8,7 +8,7 @@ BossGem = {
 'Sukuna',
 'Kashimo',
 'Tatsumaki',
-'Artia',
+'Artoria',
 'Rimuru',
 'Shank',
 'Sand Man',
@@ -74,3 +74,6 @@ FruitList = {
 "God Light Fruit",
 "Dark Flame Fruit"
  }
+FruitName = {
+ 'Operation'
+}
