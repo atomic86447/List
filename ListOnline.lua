@@ -54,17 +54,17 @@ MeleeName = {
 "Killua",
 "Gojo [Unleashed]"
 }
- 
- SwordName = {
+
+SwordName = {
 "Saber",
 "Excalibur",
 "Cutlass",
 "Katana",
 "Ichigo's Sword",
 "Kashimo's Pole Curse",
-"Cid's Swd",
+"Cid's Sword",
 "Kashimo's Pole",
-"Rimuru's Swd"
+"Rimuru's Sword"
 }
  
 FruitList = { 
