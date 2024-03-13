@@ -56,6 +56,7 @@ MeleeName = {
 }
 
 SwordName = {
+"Shadow's Slime Sword",
 "Saber",
 "Excalibur",
 "Cutlass",
