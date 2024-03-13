@@ -34,6 +34,7 @@ GateMob = {
  'Shadow Soldier',
  'Shadow Lord',
  'Cid',
+ 'Shadow Natsu',
  'Shadow Sukuna',
  'Shadow Artoria',
  'LieutenantMarine',
