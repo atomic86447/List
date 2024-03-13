@@ -55,7 +55,7 @@ MeleeName = {
 "Gojo [Unleashed]"
 }
  
- SwordName {
+ SwordName = {
 "Saber",
 "Excalibur",
 "Cutlass",
