@@ -43,6 +43,7 @@ GateMob = {
 
 
 MeleeName = {
+"Frieren's Staff",
 "Combat",
 "Sukuna",
 "Natsu",
