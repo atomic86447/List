@@ -1191,7 +1191,7 @@ local aa = {
                                 Enum.FontWeight.Regular,
                                 Enum.FontStyle.Normal
                             ),
-                            TextSize = 12,
+                            TextSize = 25,
                             TextXAlignment = "Left",
                             TextYAlignment = "Center",
                             Size = UDim2.new(1, -12, 1, 0),
@@ -1203,7 +1203,7 @@ local aa = {
                         "ImageLabel",
                         {
                             AnchorPoint = Vector2.new(0, 0.5),
-                            Size = UDim2.fromOffset(16, 16),
+                            Size = UDim2.fromOffset(25, 25),
                             Position = UDim2.new(0, 8, 0.5, 0),
                             BackgroundTransparency = 1,
                             Image = r and r or nil,
@@ -1468,7 +1468,7 @@ local aa = {
                                 "ImageLabel",
                                 {
                                     Image = o,
-                                    Size = UDim2.fromOffset(35, 35),
+                                    Size = UDim2.fromOffset(35, 25),
                                     Position = UDim2.fromScale(0.5, 0.5),
                                     AnchorPoint = Vector2.new(0.5, 0.5),
                                     BackgroundTransparency = 1,
@@ -1654,7 +1654,7 @@ local aa = {
                 ),
                 s(
                     "Frame",
-                    {Size = UDim2.fromOffset(35, 35), BackgroundTransparency = 1, Position = UDim2.new(1, -20, 1, -20)}
+                    {Size = UDim2.fromOffset(25, 20), BackgroundTransparency = 1, Position = UDim2.new(1, -20, 1, -20)}
                 )
             v.TabHolder =
                 s(
