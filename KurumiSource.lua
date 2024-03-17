@@ -1772,14 +1772,14 @@ local aa = {
                 end
                 local P, Q = M and j.ViewportSize.X or K, M and j.ViewportSize.Y or L
                 G:setGoal {
-                    X = l[O and "Instant" or "Spring"].new(P, {frequency = 6}),
-                    Y = l[O and "Instant" or "Spring"].new(Q, {frequency = 6})
+                    X = l[O and "Instant" or "Spring"].new(P, {frequency = 10}),
+                    Y = l[O and "Instant" or "Spring"].new(Q, {frequency = 10})
                 }
                 v.Size = UDim2.fromOffset(P, Q)
                 if not N then
                     H:setGoal {
-                        X = q(M and 0 or v.Position.X.Offset, {frequency = 6}),
-                        Y = q(M and 0 or v.Position.Y.Offset, {frequency = 6})
+                        X = q(M and 0 or v.Position.X.Offset, {frequency = 10}),
+                        Y = q(M and 0 or v.Position.Y.Offset, {frequency = 10})
                     }
                 end
             end
