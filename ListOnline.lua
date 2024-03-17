@@ -44,7 +44,6 @@ GateMob = {
 
 
 MeleeName = {
-"Frieren's Staff",
 "Combat",
 "Sukuna",
 "Natsu",
@@ -60,6 +59,7 @@ MeleeName = {
 }
 
 SwordName = {
+"Frieren's Staff",
 "Shadow's Slime Sword",
 "Saber",
 "Excalibur",
