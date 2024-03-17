@@ -1203,7 +1203,7 @@ local aa = {
                         "ImageLabel",
                         {
                             AnchorPoint = Vector2.new(0, 0.5),
-                            Size = UDim2.fromOffset(25, 25),
+                            Size = UDim2.fromOffset(16, 16),
                             Position = UDim2.new(0, 8, 0.5, 0),
                             BackgroundTransparency = 1,
                             Image = r and r or nil,
@@ -1468,7 +1468,7 @@ local aa = {
                                 "ImageLabel",
                                 {
                                     Image = o,
-                                    Size = UDim2.fromOffset(30, 30),
+                                    Size = UDim2.fromOffset(25, 25),
                                     Position = UDim2.fromScale(0.5, 0.5),
                                     AnchorPoint = Vector2.new(0.5, 0.5),
                                     BackgroundTransparency = 1,
@@ -1654,7 +1654,7 @@ local aa = {
                 ),
                 s(
                     "Frame",
-                    {Size = UDim2.fromOffset(20, 20), BackgroundTransparency = 1, Position = UDim2.new(1, -20, 1, -20)}
+                    {Size = UDim2.fromOffset(25, 25), BackgroundTransparency = 1, Position = UDim2.new(1, -20, 1, -20)}
                 )
             v.TabHolder =
                 s(
@@ -1772,14 +1772,14 @@ local aa = {
                 end
                 local P, Q = M and j.ViewportSize.X or K, M and j.ViewportSize.Y or L
                 G:setGoal {
-                    X = l[O and "Instant" or "Spring"].new(P, {frequency = 20}),
-                    Y = l[O and "Instant" or "Spring"].new(Q, {frequency = 20})
+                    X = l[O and "Instant" or "Spring"].new(P, {frequency = 6}),
+                    Y = l[O and "Instant" or "Spring"].new(Q, {frequency = 6})
                 }
                 v.Size = UDim2.fromOffset(P, Q)
                 if not N then
                     H:setGoal {
-                        X = q(M and 0 or v.Position.X.Offset, {frequency = 20}),
-                        Y = q(M and 0 or v.Position.Y.Offset, {frequency = 20})
+                        X = q(M and 0 or v.Position.X.Offset, {frequency = 6}),
+                        Y = q(M and 0 or v.Position.Y.Offset, {frequency = 6})
                     }
                 end
             end
@@ -5155,21 +5155,6 @@ local aa = {
         local aa, ab, ac, ad, ae = b(50)
         return {
             Name = "Dark",
-            Tab = Color3.fromRGB(240, 240, 240),
-            ToggleToggled = Color3.fromRGB(240, 240, 240),
-            DropdownFrame = Color3.fromRGB(240, 240, 240),
-            DropdownHolder = Color3.fromRGB(240, 240, 240),
-            DropdownBorder = Color3.fromRGB(240, 240, 240),
-            DropdownOption = Color3.fromRGB(240, 240, 240),
-            Text = Color3.fromRGB(240, 240, 240),
-            SubText = Color3.fromRGB(240, 240, 240),
-            HoverChange = 0.07
-        }
-    end,
-    [51] = function()
-        local aa, ab, ac, ad, ae = b(50)
-        return {
-            Name = "Dark",
             Accent = Color3.fromRGB(96, 205, 255),
             AcrylicMain = Color3.fromRGB(60, 60, 60),
             AcrylicBorder = Color3.fromRGB(90, 90, 90),
@@ -5204,6 +5189,34 @@ local aa = {
             SubText = Color3.fromRGB(170, 170, 170),
             Hover = Color3.fromRGB(120, 120, 120),
             HoverChange = 0.07
+        }
+    end,
+    [51] = function()
+        local aa, ab, ac, ad, ae = b(51)
+        return {
+            Name = "Darker",
+            Accent = Color3.fromRGB(72, 138, 182),
+            AcrylicMain = Color3.fromRGB(30, 30, 30),
+            AcrylicBorder = Color3.fromRGB(60, 60, 60),
+            AcrylicGradient = ColorSequence.new(Color3.fromRGB(25, 25, 25), Color3.fromRGB(15, 15, 15)),
+            AcrylicNoise = 0.94,
+            TitleBarLine = Color3.fromRGB(65, 65, 65),
+            Tab = Color3.fromRGB(100, 100, 100),
+            Element = Color3.fromRGB(70, 70, 70),
+            ElementBorder = Color3.fromRGB(25, 25, 25),
+            InElementBorder = Color3.fromRGB(55, 55, 55),
+            ElementTransparency = 0.82,
+            DropdownFrame = Color3.fromRGB(120, 120, 120),
+            DropdownHolder = Color3.fromRGB(35, 35, 35),
+            DropdownBorder = Color3.fromRGB(25, 25, 25),
+            Dialog = Color3.fromRGB(35, 35, 35),
+            DialogHolder = Color3.fromRGB(25, 25, 25),
+            DialogHolderLine = Color3.fromRGB(20, 20, 20),
+            DialogButton = Color3.fromRGB(35, 35, 35),
+            DialogButtonBorder = Color3.fromRGB(55, 55, 55),
+            DialogBorder = Color3.fromRGB(50, 50, 50),
+            DialogInput = Color3.fromRGB(45, 45, 45),
+            DialogInputLine = Color3.fromRGB(120, 120, 120)
         }
     end,
     [52] = function()
