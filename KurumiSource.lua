@@ -1203,7 +1203,7 @@ local aa = {
                         "ImageLabel",
                         {
                             AnchorPoint = Vector2.new(0, 0.5),
-                            Size = UDim2.fromOffset(16, 16),
+                            Size = UDim2.fromOffset(25, 25),
                             Position = UDim2.new(0, 8, 0.5, 0),
                             BackgroundTransparency = 1,
                             Image = r and r or nil,
@@ -5165,7 +5165,7 @@ local aa = {
             Element = Color3.fromRGB(0, 0, 0),
             ElementBorder = Color3.fromRGB(0, 0, 0),
             InElementBorder = Color3.fromRGB(0, 0, 0),
-            ElementTransparency = 1,
+            ElementTransparency = 0,
             ToggleSlider = Color3.fromRGB(0, 0, 0),
             ToggleToggled = Color3.fromRGB(0, 0, 0),
             SliderRail = Color3.fromRGB(0, 0, 0),
