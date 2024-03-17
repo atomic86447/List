@@ -1191,7 +1191,7 @@ local aa = {
                                 Enum.FontWeight.Regular,
                                 Enum.FontStyle.Normal
                             ),
-                            TextSize = 25,
+                            TextSize = 18,
                             TextXAlignment = "Left",
                             TextYAlignment = "Center",
                             Size = UDim2.new(1, -12, 1, 0),
@@ -1203,7 +1203,7 @@ local aa = {
                         "ImageLabel",
                         {
                             AnchorPoint = Vector2.new(0, 0.5),
-                            Size = UDim2.fromOffset(25, 25),
+                            Size = UDim2.fromOffset(30, 30),
                             Position = UDim2.new(0, 8, 0.5, 0),
                             BackgroundTransparency = 1,
                             Image = r and r or nil,
