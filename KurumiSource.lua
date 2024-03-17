@@ -1468,7 +1468,7 @@ local aa = {
                                 "ImageLabel",
                                 {
                                     Image = o,
-                                    Size = UDim2.fromOffset(20, 20),
+                                    Size = UDim2.fromOffset(30, 30),
                                     Position = UDim2.fromScale(0.5, 0.5),
                                     AnchorPoint = Vector2.new(0.5, 0.5),
                                     BackgroundTransparency = 1,
@@ -1772,14 +1772,14 @@ local aa = {
                 end
                 local P, Q = M and j.ViewportSize.X or K, M and j.ViewportSize.Y or L
                 G:setGoal {
-                    X = l[O and "Instant" or "Spring"].new(P, {frequency = 10}),
-                    Y = l[O and "Instant" or "Spring"].new(Q, {frequency = 10})
+                    X = l[O and "Instant" or "Spring"].new(P, {frequency = 20}),
+                    Y = l[O and "Instant" or "Spring"].new(Q, {frequency = 20})
                 }
                 v.Size = UDim2.fromOffset(P, Q)
                 if not N then
                     H:setGoal {
-                        X = q(M and 0 or v.Position.X.Offset, {frequency = 10}),
-                        Y = q(M and 0 or v.Position.Y.Offset, {frequency = 10})
+                        X = q(M and 0 or v.Position.X.Offset, {frequency = 20}),
+                        Y = q(M and 0 or v.Position.Y.Offset, {frequency = 20})
                     }
                 end
             end
@@ -5155,39 +5155,39 @@ local aa = {
         local aa, ab, ac, ad, ae = b(50)
         return {
             Name = "Dark",
-            Accent = Color3.fromRGB(96, 205, 255),
-            AcrylicMain = Color3.fromRGB(60, 60, 60),
-            AcrylicBorder = Color3.fromRGB(90, 90, 90),
-            AcrylicGradient = ColorSequence.new(Color3.fromRGB(40, 40, 40), Color3.fromRGB(40, 40, 40)),
+            Accent = Color3.fromRGB(0, 0, 0),
+            AcrylicMain = Color3.fromRGB(0, 0, 0),
+            AcrylicBorder = Color3.fromRGB(0, 0, 0),
+            AcrylicGradient = ColorSequence.new(Color3.fromRGB(0, 0, 0), Color3.fromRGB(0, 0, 0)),
             AcrylicNoise = 0.9,
-            TitleBarLine = Color3.fromRGB(75, 75, 75),
-            Tab = Color3.fromRGB(120, 120, 120),
-            Element = Color3.fromRGB(120, 120, 120),
-            ElementBorder = Color3.fromRGB(35, 35, 35),
-            InElementBorder = Color3.fromRGB(90, 90, 90),
+            TitleBarLine = Color3.fromRGB(0, 0, 0),
+            Tab = Color3.fromRGB(0, 0, 0),
+            Element = Color3.fromRGB(0, 0, 0),
+            ElementBorder = Color3.fromRGB(0, 0, 0),
+            InElementBorder = Color3.fromRGB(0, 0, 0),
             ElementTransparency = 1,
-            ToggleSlider = Color3.fromRGB(120, 120, 120),
+            ToggleSlider = Color3.fromRGB(0, 0, 0),
             ToggleToggled = Color3.fromRGB(0, 0, 0),
-            SliderRail = Color3.fromRGB(120, 120, 120),
-            DropdownFrame = Color3.fromRGB(160, 160, 160),
-            DropdownHolder = Color3.fromRGB(45, 45, 45),
-            DropdownBorder = Color3.fromRGB(35, 35, 35),
-            DropdownOption = Color3.fromRGB(120, 120, 120),
-            Keybind = Color3.fromRGB(120, 120, 120),
-            Input = Color3.fromRGB(160, 160, 160),
-            InputFocused = Color3.fromRGB(10, 10, 10),
-            InputIndicator = Color3.fromRGB(150, 150, 150),
-            Dialog = Color3.fromRGB(45, 45, 45),
-            DialogHolder = Color3.fromRGB(35, 35, 35),
-            DialogHolderLine = Color3.fromRGB(30, 30, 30),
-            DialogButton = Color3.fromRGB(45, 45, 45),
-            DialogButtonBorder = Color3.fromRGB(80, 80, 80),
-            DialogBorder = Color3.fromRGB(70, 70, 70),
-            DialogInput = Color3.fromRGB(55, 55, 55),
-            DialogInputLine = Color3.fromRGB(160, 160, 160),
-            Text = Color3.fromRGB(240, 240, 240),
-            SubText = Color3.fromRGB(170, 170, 170),
-            Hover = Color3.fromRGB(120, 120, 120),
+            SliderRail = Color3.fromRGB(0, 0, 0),
+            DropdownFrame = Color3.fromRGB(0, 0, 0),
+            DropdownHolder = Color3.fromRGB(0, 0, 0),
+            DropdownBorder = Color3.fromRGB(0, 0, 0),
+            DropdownOption = Color3.fromRGB(0, 0, 0),
+            Keybind = Color3.fromRGB(0, 0, 0),
+            Input = Color3.fromRGB(0, 0, 0),
+            InputFocused = Color3.fromRGB(0, 0, 0),
+            InputIndicator = Color3.fromRGB(0, 0, 0),
+            Dialog = Color3.fromRGB(0, 0, 0),
+            DialogHolder = Color3.fromRGB(0, 0, 0),
+            DialogHolderLine = Color3.fromRGB(0, 0, 0),
+            DialogButton = Color3.fromRGB(0, 0, 0),
+            DialogButtonBorder = Color3.fromRGB(0, 0, 0),
+            DialogBorder = Color3.fromRGB(0, 0, 0),
+            DialogInput = Color3.fromRGB(0, 0, 0),
+            DialogInputLine = Color3.fromRGB(0, 0, 0),
+            Text = Color3.fromRGB(0, 0, 0),
+            SubText = Color3.fromRGB(0, 0, 0),
+            Hover = Color3.fromRGB(0, 0, 0),
             HoverChange = 0.07
         }
     end,
