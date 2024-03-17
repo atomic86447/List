@@ -1018,7 +1018,7 @@ local aa = {
                         "ImageLabel",
                         {
                             Image = e(d.Parent.Assets).Close,
-                            Size = UDim2.fromOffset(25, 25),
+                            Size = UDim2.fromOffset(35, 35),
                             Position = UDim2.fromScale(0.5, 0.5),
                             AnchorPoint = Vector2.new(0.5, 0.5),
                             BackgroundTransparency = 1,
@@ -1468,7 +1468,7 @@ local aa = {
                                 "ImageLabel",
                                 {
                                     Image = o,
-                                    Size = UDim2.fromOffset(25, 25),
+                                    Size = UDim2.fromOffset(35, 35),
                                     Position = UDim2.fromScale(0.5, 0.5),
                                     AnchorPoint = Vector2.new(0.5, 0.5),
                                     BackgroundTransparency = 1,
@@ -1654,7 +1654,7 @@ local aa = {
                 ),
                 s(
                     "Frame",
-                    {Size = UDim2.fromOffset(25, 25), BackgroundTransparency = 1, Position = UDim2.new(1, -20, 1, -20)}
+                    {Size = UDim2.fromOffset(35, 35), BackgroundTransparency = 1, Position = UDim2.new(1, -20, 1, -20)}
                 )
             v.TabHolder =
                 s(
