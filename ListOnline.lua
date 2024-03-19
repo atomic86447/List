@@ -37,6 +37,8 @@ GateMob = {
  'Cid',
  'Shadow Natsu',
  'Shadow Sukuna',
+ 'Marine',
+ 'CapMarine',
  'Sorcerer',
  'Gojo Satoru',
  'Hakari',
