@@ -41,6 +41,7 @@ GateMob = {
  'CapMarine',
  'Sorcerer',
  'Gojo Satoru',
+ 'Itadori',
  'Hakari',
  'BanditDungeon',
 'Bandit Leader Dungeon',
