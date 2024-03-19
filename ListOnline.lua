@@ -37,6 +37,8 @@ GateMob = {
  'Cid',
  'Shadow Natsu',
  'Shadow Sukuna',
+ 'BanditDungeon',
+'Bandit Leader Dungeon',
  'Shadow Artoria',
  'LieutenantMarine',
  'MarineDungeon'
