@@ -1,5 +1,5 @@
 BossGem = {
-"Frieren",
+'Frieren',
 'Gilgamesh',
 'Natsu',
 'Ichigo',
