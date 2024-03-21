@@ -13,8 +13,7 @@ BossGem = {
 'Rimuru',
 'Shank',
 'Sand Man',
-'Bomb Man',
-'Snow Bandit Leader' 
+'Bomb Man'
 }
 
 OrbSekkBossOnline = {
