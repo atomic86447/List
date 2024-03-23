@@ -32,6 +32,7 @@ BossWorld = {
 
 GateMob = {
  'Shadow Soldier',
+ 'Kokushibo',
  'Shadow Lord',
  'Cid',
  'Shadow Natsu',
