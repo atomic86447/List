@@ -17,6 +17,7 @@ BossGem = {
 }
 
 OrbSekkBossOnline = {
+ "[Amanai] Summon Ticket",
  "Infinity Orb",
  "[Choso] Cursed Womb",
  "Sukuna Fingers Bag",
