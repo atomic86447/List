@@ -27,6 +27,7 @@ OrbSekkBossOnline = {
 BossWorld = {
  'Gojo [Unleashed]',
  'Killua',
+ 'Toji',
  'Sukuna [Half Power]',
  'Choso'
 }
