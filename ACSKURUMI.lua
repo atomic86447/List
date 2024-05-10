@@ -110,7 +110,7 @@ e.Draggable = true
 e.Active = true
 e.Selectable = true
 e.BackgroundTransparency = .1
-e.Image = "rbxassetid://14981376704"
+e.Image = "rbxassetid://16782420129"
 e.Visible = true
 local a = Instance.new("UICorner")
 a.Name = "MCNR"
@@ -157,7 +157,7 @@ function a:Window(f, f, f)
     i.Size = UDim2.new(0, 0, 0, 0)
     i:TweenSize(UDim2.new(0, 555, 0, 352), "Out", "Quad", 0.4, true)
     local UiToggle_UiStroke1 = Instance.new("UIStroke")
-    UiToggle_UiStroke1.Color = Color3.fromRGB(0, 255, 145)
+    UiToggle_UiStroke1.Color = Color3.fromRGB(255, 0, 0)
     UiToggle_UiStroke1.Thickness = 2
     UiToggle_UiStroke1.Name = "UiToggle_UiStroke1"
     UiToggle_UiStroke1.Parent = i
@@ -210,7 +210,7 @@ function a:Window(f, f, f)
     local e = Instance.new("Frame")
     e.Name = "Tab"
     e.Parent = i
-    e.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    e.BackgroundColor3 = Color3.fromRGB(255, 45, 45)
     e.Position = UDim2.new(0, 14, 0, 33)
     e.BackgroundTransparency = 1
     e.Size = UDim2.new(0, 138, 0, 307)
