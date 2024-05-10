@@ -189,7 +189,7 @@ function a:Window(f, f, f)
     j.Position = UDim2.new(0, 30, 0.05, 0)
     j.Size = UDim2.new(0, 255, 0.05, 25)
     j.Font = Enum.Font.GothamBold
-    j.Text = "Alchemy Hub"
+    j.Text = "Kurumi HUB ".."<font color='rgb(255, 0, 127)'>VERSION X </font>".."                        "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
     j.TextSize = 15.000
     j.TextColor3 = Color3.fromRGB(255, 255, 255)
     j.TextXAlignment = Enum.TextXAlignment.Left
