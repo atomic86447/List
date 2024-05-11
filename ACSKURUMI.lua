@@ -292,7 +292,7 @@ function a:Window(f, f, f)
         n.Parent = j
         n.Name = d .. "Server"
         n.Text = ""
-        n.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+        n.BackgroundColor3 = Color3.fromRGB(255, 4, 4)
         n.BackgroundTransparency = 1
         n.Size = UDim2.new(0, 136, 0, 30)
         n.Font = Enum.Font.GothamSemibold
