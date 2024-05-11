@@ -126,8 +126,8 @@ e.MouseButton1Down:connect(
     end
 )
 do
-    if game:GetService("CoreGui"):FindFirstChild("AlchemyHubUI") then
-        game:GetService("CoreGui").AlchemyHubUI:Destroy()
+    if game:GetService("CoreGui"):FindFirstChild("KurumiHubUI") then
+        game:GetService("CoreGui").KurumiHubUI:Destroy()
         game:GetService("CoreGui").ScreenGui:Destroy()
     end
 end
@@ -143,7 +143,7 @@ function a:Window(f, f, f)
     local f = f or Enum.KeyCode.RightControl
     local f = string.gsub(tostring(f), "Enum.KeyCode.", "")
     local f = Instance.new("ScreenGui")
-    f.Name = "AlchemyHubUI"
+    f.Name = "KurumiHubUI"
     f.Parent = game.CoreGui
     f.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     local i = Instance.new("Frame")
@@ -151,7 +151,7 @@ function a:Window(f, f, f)
     i.Parent = f
     i.ClipsDescendants = true
     i.AnchorPoint = Vector2.new(0.5, 0.5)
-    i.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+    i.BackgroundColor3 = Color3.fromRGB(255, 0, 127)
     i.BackgroundTransparency = .1
     i.Position = UDim2.new(0.5, 0, 0.5, 0)
     i.Size = UDim2.new(0, 0, 0, 0)
@@ -189,7 +189,7 @@ function a:Window(f, f, f)
     j.Position = UDim2.new(0, 30, 0.05, 0)
     j.Size = UDim2.new(0, 255, 0.05, 25)
     j.Font = Enum.Font.GothamBold
-    j.Text = "Kurumi HUB ".." "..""..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
+    j.Text = "KurumiHubUI ".." "..""..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
     j.TextSize = 15.000
     j.TextColor3 = Color3.fromRGB(255, 255, 255)
     j.TextXAlignment = Enum.TextXAlignment.Left
@@ -292,7 +292,7 @@ function a:Window(f, f, f)
         n.Parent = j
         n.Name = d .. "Server"
         n.Text = ""
-        n.BackgroundColor3 = Color3.fromRGB(255, 4, 4)
+        n.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
         n.BackgroundTransparency = 1
         n.Size = UDim2.new(0, 136, 0, 30)
         n.Font = Enum.Font.GothamSemibold
@@ -621,7 +621,7 @@ function a:Window(f, f, f)
             o.BackgroundTransparency = 1.000
             o.Position = UDim2.new(0, 5, 0, 8)
             o.Size = UDim2.new(0, 30, 0, 30)
-            o.Image = "rbxassetid://16780924356"
+            o.Image = "rbxassetid://16062922985"
             j.Parent = h
             j.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
             j.BackgroundTransparency = 1.000
@@ -714,7 +714,7 @@ function a:Window(f, f, f)
             f.BackgroundTransparency = 1.000
             f.Position = UDim2.new(0, 5, 0, 3)
             f.Size = UDim2.new(0, 30, 0, 30)
-            f.Image = "rbxassetid://16780924356"
+            f.Image = "rbxassetid://16062922985"
             k.Name = "DropTitle"
             k.Parent = g
             k.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
@@ -929,7 +929,7 @@ function a:Window(f, f, f)
             l.BorderSizePixel = 0
             l.Position = UDim2.new(0, 7.5, 0, 7.5)
             l.Size = UDim2.new(0, 30, 0, 30)
-            l.Image = "rbxassetid://16780924356"
+            l.Image = "rbxassetid://16062922985"
             m.Parent = j
             m.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
             m.BackgroundTransparency = 1.000
@@ -1327,7 +1327,7 @@ function a:Window(f, f, f)
             k.BorderSizePixel = 0
             k.Position = UDim2.new(0, 7.5, 0, 7.5)
             k.Size = UDim2.new(0, 30, 0, 30)
-            k.Image = "rbxassetid://16780924356"
+            k.Image = "rbxassetid://16062922985"
             l.Parent = i
             l.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
             l.BackgroundTransparency = 1.000
