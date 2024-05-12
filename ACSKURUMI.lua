@@ -151,7 +151,7 @@ function a:Window(f, f, f)
     i.Parent = f
     i.ClipsDescendants = true
     i.AnchorPoint = Vector2.new(0.5, 0.5)
-    i.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+    i.BackgroundColor3 = Color3.fromRGB(153, 0, 0)
     i.BackgroundTransparency = .1
     i.Position = UDim2.new(0.5, 0, 0.5, 0)
     i.Size = UDim2.new(0, 0, 0, 0)
